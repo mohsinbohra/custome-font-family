@@ -1,0 +1,41 @@
+@font-face{
+	font-family: mymabboldfont;
+	src(./font/mab-bold.ttf);
+}
+@font-face{
+	font-family: mymabregularfont;
+	src(./font/mab-Regular.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+.big-rock{
+	font-size:50px;
+	font-family: 'mymabboldfont', sans-serif;
+	margin-bottom:50px;
+	text-align:center;
+	font-family: 'Berkshire Swash', cursive;
+	font-weight:700;
+}
+h1{
+	font-size:30px;
+	font-family: 'mymabboldfont', sans-serif;
+	margin-bottom:20px;
+}
+h2{
+	font-size:25px;
+	margin-bottom:20px;
+	font-family: 'mymabregularfont', sans-serif;
+}
+h3{
+	font-size:22px;
+	margin-bottom:20px;
+font-family: 'Pacifico', cursive;	
+}
+h4{
+	font-size:18px;
+	margin-bottom:20px;
+font-family: 'Berkshire Swash', cursive;
+}
+p{
+	font-size:16px;	
+}
